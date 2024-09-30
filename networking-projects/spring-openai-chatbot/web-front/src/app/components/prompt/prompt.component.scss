@@ -1,0 +1,28 @@
+.prompt {
+  position: fixed;
+  bottom: 0px;
+  left: 15%;
+  height: 50px;
+  width: 85%;
+  border-left: 1px solid #CC8787;
+  padding-top: 25px;
+
+  .query-input {
+    width: 65%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  button {
+    width: 10%;
+  }
+
+  .loading {
+    position: fixed;
+    height: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+  }
+}

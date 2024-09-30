@@ -1,0 +1,23 @@
+<main class="main">
+  <div class="topbar">
+    <img src="home.png" alt="project logo" (click)="home()"/>
+    <app-breadcrumb></app-breadcrumb>
+  </div>
+  <div class="content">
+    <div class="universe-selection" *ngIf="!universeSelected">
+      <div class="header">
+        <img src="logo.png" alt="Screening Prep Troubleshooter"/>
+      </div>
+      <div class="universe-selection">
+        <ng-container *ngFor="let universe of universes">
+          <app-universe-button [universe]="universe"></app-universe-button>
+        </ng-container>
+      </div>
+    </div>
+    <div class="universe-content" *ngIf="universeSelected">
+      <app-session-manager [universe]="selectedUniverse"></app-session-manager>
+    </div>
+  </div>
+</main>
+
+<router-outlet/>

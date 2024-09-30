@@ -12,6 +12,7 @@
         <module name="apache-httpclient" />
         <module name="feign-httpclient" />
         <module name="okhttp-client-chatbot" />
+        <module name="spring-openai-chatbot" />
         <module name="core-java-networking" />
         <module name="apache-httpclient5" />
       </profile>

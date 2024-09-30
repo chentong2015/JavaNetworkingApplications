@@ -1,0 +1,6 @@
+<div class="prompt">
+  <app-sub-universe-selector [universe]="universe"></app-sub-universe-selector>
+  <input type="text" [(ngModel)]="queryInputValue" (keydown.enter)="sendQuery()" class="query-input" #query [disabled]="loading">
+  <button (click)="sendQuery()" [disabled]="!queryInputValue || loading">Submit</button>
+  <img src="loading.gif" *ngIf="loading" alt="loading" class="loading">
+</div>

@@ -1,0 +1,12 @@
+div.breadcrumb-item {
+  float: left;
+  height: 20px;
+  padding: 15px;
+  cursor: default;
+
+  &.active {
+    text-decoration: underline;
+    color: darkblue;
+
+  }
+}

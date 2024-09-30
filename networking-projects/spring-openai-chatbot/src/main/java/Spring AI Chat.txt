@@ -1,0 +1,5 @@
+Spring AI project:
+https://docs.spring.io/spring-ai/reference/api/chatclient.html
+
+Azure OpenAI Java library:
+https://generaite-ai-toolkit.azurewebsites.net/azure-openai-overview

@@ -1,0 +1,18 @@
+.universe-selector {
+  float: left;
+  width: 35%;
+  height: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 10%;
+  margin-top: 60px;
+  text-align: center;
+  border: 1px solid #CC8787;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 25px;
+
+  &:hover {
+    background-color: #F5A2A2;
+  }
+}

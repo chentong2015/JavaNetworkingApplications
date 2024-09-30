@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/http-clients/pom.xml" />
         <option value="$PROJECT_DIR$/networking-io-netty/pom.xml" />
         <option value="$PROJECT_DIR$/networking-projects/okhttp-client-chatbot/pom.xml" />
+        <option value="$PROJECT_DIR$/networking-projects/openai-client-chatbot/pom.xml" />
       </list>
     </option>
   </component>
