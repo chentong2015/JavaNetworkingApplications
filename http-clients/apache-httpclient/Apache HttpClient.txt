@@ -1,0 +1,9 @@
+TODO: 推荐使用Apache HttpClient类库提供Http请求
+https://hc.apache.org/httpcomponents-client-4.5.x/index.html
+https://hc.apache.org/httpcomponents-client-4.5.x/current/tutorial/html/fundamentals.html
+
+Apache Http Client Async异步发送请求
+https://hc.apache.org/httpcomponents-asyncclient-4.1.x/index.html
+
+https://mkyong.com/java/apache-httpclient-examples/
+https://www.baeldung.com/httpclient-post-http-request

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Bot App</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- 推荐将CSS样式单独定义在一个文件中 -->
+<div class="header-div">
+    <h2 style="color: #0c5460"> My Chatbot Application </h2>
+</div>
+
+<div style="margin-left: auto; margin-right: auto; width: 60%;">
+    <div class="input-group">
+        <input id="myInput" type="text" class="form-control" placeholder="Input your question">
+        <button id="myButton" class="btn btn-info" style="width: 100px;">send</button>
+    </div>
+
+    <!-- 可以选择将之前的历史记录显示出来 -->
+    <h6 id="answer" style="margin-top: 20px;margin-left: 5px"></h6>
+
+    <!-- 在发送请求之后的一个动态的效果 -->
+    <img id="loading" alt="image loading" src="image/loading.gif"
+         style="width: 50px; height: 50px; visibility: hidden">
+</div>
+
+<!-- 需要等页面的元素加载完成之后，在添加JS事件的方法 -->
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+
+</body>
+</html>

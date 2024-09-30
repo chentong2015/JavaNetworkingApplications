@@ -1,0 +1,5 @@
+版本的迁移和适配
+https://hc.apache.org/httpcomponents-client-5.3.x/migration-guide/index.html
+
+HttpClient GET POST
+https://www.springcloud.io/post/2022-08/httpclient5/#gsc.tab=0

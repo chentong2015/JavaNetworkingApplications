@@ -1,0 +1,10 @@
+https://github.com/OpenFeign/feign
+
+构建在Http上层的类库，封装在Http类库基础上
+Feign allows you to write your own code on top of http libraries such as Apache HC
+
+通过将注解处理成模板请求，来指定HTTP Request
+1. 使用常见的http client来build，提供请求Timeout
+2. 自定义编码和解码所使用的类库，Java层面只处理对象，不考虑数据的解析
+3. 直接通过调用方法来执行Http Client请求，减少对请求的自定义配置和封装
+4. 提供日志配置

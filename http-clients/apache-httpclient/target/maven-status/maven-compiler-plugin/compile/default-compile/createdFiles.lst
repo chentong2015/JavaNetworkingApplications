@@ -1,0 +1,4 @@
+com/apache/httpclient/ApacheHttpRequestExecutor.class
+com/apache/httpclient/ApacheHttpClientRetryer.class
+com/apache/httpclient/HttpClientSourceCode.class
+com/apache/httpclient/ApacheHttpClientDemo.class
