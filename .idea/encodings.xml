@@ -12,6 +12,8 @@
     <file url="file://$PROJECT_DIR$/http-clients/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/http-clients/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-core-networking/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/networking-io-netty/Netty中间件.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/networking-io-netty/Netty通讯中间件.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/NettyServerHandler.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/Netty源码解析.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/chat/ChatServerHandler.java" charset="UTF-8" />
@@ -38,6 +40,6 @@
     <file url="file://$PROJECT_DIR$/networking-projects/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>

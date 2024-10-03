@@ -1,4 +1,4 @@
-package JavaNetworking.java11httpclient;
+package networking.java11httpclient;
 
 import java.net.URI;
 import java.net.http.HttpClient;

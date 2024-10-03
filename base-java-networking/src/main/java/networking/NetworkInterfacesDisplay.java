@@ -1,4 +1,4 @@
-package JavaNetworking;
+package networking;
 
 import java.net.NetworkInterface;
 import java.net.SocketException;
