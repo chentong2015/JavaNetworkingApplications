@@ -1,9 +1,0 @@
-<div class="session-history">
-  <div class="title">Session history :</div>
-  <div *ngFor="let session of sessions">
-    <div class="session" (click)="loadSession(session)">
-      {{session.universe.label}} - {{session.startDate | date:'short'}}
-    </div>
-  </div>
-  <div (click)="startNewSession()" class="new-session-action">Start New Session</div>
-</div>

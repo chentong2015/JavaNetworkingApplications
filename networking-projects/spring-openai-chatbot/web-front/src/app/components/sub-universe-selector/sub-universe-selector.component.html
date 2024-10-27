@@ -1,7 +1,0 @@
-<select [(ngModel)]="selectedSubUniverseId" (ngModelChange)="selectSubUniverse()" class="sub-universe-selector">
-  <option value="" disabled selected>Select a Sub Universe</option>
-  <option value="ALL">ALL</option>
-  <option *ngFor="let subUniverse of selectedSubUniverse" [value]="subUniverse.id">
-    {{ subUniverse.label }}
-  </option>
-</select>
