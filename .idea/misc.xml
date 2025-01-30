@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/networking-projects/okhttp-client-chatbot/pom.xml" />
         <option value="$PROJECT_DIR$/networking-projects/openai-client-chatbot/pom.xml" />
         <option value="$PROJECT_DIR$/networking-projects/spring-openai-chatbot/pom.xml" />
+        <option value="$PROJECT_DIR$/http-client-library/pom.xml" />
+        <option value="$PROJECT_DIR$/netty-middleware/pom.xml" />
       </list>
     </option>
   </component>

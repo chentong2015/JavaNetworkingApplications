@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/base-java-networking/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-java-networking/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/async_io/client/ClientConnectionHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/async_io/client/ClientReadHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/async_io/client/ClientWriteHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/async_io/server/BaseAioServer.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/async_io/server/ServerConnectionHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/async_io/server/ServerReadHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/async_io/server/ServerWriteHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/blocking_io/DemoBlockingIO.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/non_blocking_io/BaseNioClient.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/non_blocking_io/BaseNioServer.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/java/non_blocking_io_selector/BaseNioServerSelector.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-network-io-types/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/http-clients/apache-httpclient/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/http-clients/apache-httpclient/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/http-clients/apache-httpclient5/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/http-clients/apache-httpclient5/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/http-clients/feign-httpclient/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/http-clients/feign-httpclient/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/http-clients/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/http-clients/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/async_io/client/ClientConnectionHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/async_io/client/ClientReadHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/async_io/client/ClientWriteHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/async_io/server/BaseAioServer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/async_io/server/ServerConnectionHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/async_io/server/ServerReadHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/async_io/server/ServerWriteHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/blocking_io/DemoBlockingIO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/non_blocking_io/BaseNioClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/non_blocking_io/BaseNioServer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/java/non_blocking_io_selector/BaseNioServerSelector.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-io-types/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-java-apis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-java-apis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http-client-library/apache-httpclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http-client-library/apache-httpclient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http-client-library/apache-httpclient5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http-client-library/apache-httpclient5/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http-client-library/feign-httpclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http-client-library/feign-httpclient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http-client-library/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http-client-library/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-core-networking/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/networking-io-netty/Netty中间件.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/networking-io-netty/Netty通讯中间件.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/NettyServerHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/Netty源码解析.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/chat/ChatServerHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/encode_decode/ChannelHandlerHelper.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/encode_decode/DemoClass.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/encode_decode/NServerHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/networking-io-netty/src/main/java/netty/zero_copy/BaseZeroCopy.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-middleware/Netty中间件.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-middleware/Netty通讯中间件.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-middleware/src/main/java/netty/NettyServerHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-middleware/src/main/java/netty/Netty源码解析.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-middleware/src/main/java/netty/chat/ChatServerHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-middleware/src/main/java/netty/encode_decode/ChannelHandlerHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-middleware/src/main/java/netty/encode_decode/DemoClass.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-middleware/src/main/java/netty/encode_decode/NServerHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-middleware/src/main/java/netty/zero_copy/BaseZeroCopy.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/networking-projects/spring-openai-chatbot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/networking-projects/spring-openai-chatbot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/networking-projects/src/main/java" charset="UTF-8" />

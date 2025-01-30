@@ -10,8 +10,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>base-java-networking</module>
-        <module>base-network-io-types</module>
+        <module>base-java-apis</module>
+        <module>base-io-types</module>
         <module>networking-projects</module>
     </modules>
 

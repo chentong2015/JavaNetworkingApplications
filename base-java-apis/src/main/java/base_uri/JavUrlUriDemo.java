@@ -1,4 +1,4 @@
-package uri_url;
+package base_uri;
 
 import java.net.*;
 

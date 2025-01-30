@@ -19,7 +19,6 @@ public class BaseNioServer {
 
     private static List<SocketChannel> channelList = new ArrayList<>();
 
-
     public static void main(String[] args) throws IOException {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         serverSocketChannel.socket().bind(new InetSocketAddress(9000));
