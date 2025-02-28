@@ -1,4 +1,4 @@
-package netty.encode_decode;
+package netty.client;
 
 import java.io.Serializable;
 

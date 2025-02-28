@@ -1,4 +1,4 @@
-package netty.encode_decode;
+package netty.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelOption;

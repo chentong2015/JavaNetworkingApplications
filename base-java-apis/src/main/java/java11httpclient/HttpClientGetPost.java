@@ -1,4 +1,4 @@
-package networking.java11httpclient;
+package java11httpclient;
 
 import java.io.IOException;
 import java.net.URI;

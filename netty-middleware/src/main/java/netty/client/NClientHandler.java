@@ -1,4 +1,4 @@
-package netty.encode_decode;
+package netty.client;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

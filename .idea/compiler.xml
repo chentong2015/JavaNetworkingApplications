@@ -17,5 +17,11 @@
         <module name="apache-httpclient5" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-java-networking" target="17" />
+      <module name="base-network-io-types" target="17" />
+      <module name="http-clients" target="17" />
+      <module name="networking-io-netty" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>

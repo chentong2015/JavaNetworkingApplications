@@ -1,7 +1,8 @@
-package netty.encode_decode;
+package netty.server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import netty.client.DemoClass;
 
 public class NServerHandler extends ChannelInboundHandlerAdapter {
 
