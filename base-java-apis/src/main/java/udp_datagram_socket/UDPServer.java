@@ -1,4 +1,4 @@
-package UdpDatagramSocket;
+package udp_datagram_socket;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
