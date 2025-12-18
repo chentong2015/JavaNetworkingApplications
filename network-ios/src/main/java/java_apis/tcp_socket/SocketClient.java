@@ -27,11 +27,12 @@ public class SocketClient {
         while (true) {
             System.out.println("Enter string to be echoed: ");
             String input = scanner.nextLine();
-            if (input.equals("exit")) {
-               break;
-            }
             sendStream.println(input);
 
+            // 将信息发送到Server端只会退出客户端
+            if (input.equals("exit")) {
+                break;
+            }
             System.out.println("Received from server: " + receivedStream.readLine());
         }
     }

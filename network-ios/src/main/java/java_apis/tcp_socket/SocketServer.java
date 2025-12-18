@@ -18,17 +18,19 @@ public class SocketServer {
         try (ServerSocket serverSocket = new ServerSocket(5000)) {
             // Blocked: 用来和server联系的socket，server port一致，client port不一致
             Socket socket = serverSocket.accept();
-            System.out.println("New client connect ...");
+            System.out.println("Client connect from port: " + socket.getPort());
 
-            BufferedReader receivedStream = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             // autoFlush: 刷新输出, 确保数据已经被发送
+            BufferedReader receivedStream = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter sendStream = new PrintWriter(socket.getOutputStream(), true);
             while (true) {
                 // Blocked: 如果没有收到信息，ServerSocket会在这里阻塞
                 String receivedString = receivedStream.readLine();
-                if (receivedString.equals("exit")) {
-                    break;
-                }
+
+                // 如果收到Exit则退出Server端
+                // if (receivedString.equals("exit")) {
+                //     break;
+                // }
                 String sendBackString = "Send back: " + receivedString;
                 sendStream.println(sendBackString);
             }

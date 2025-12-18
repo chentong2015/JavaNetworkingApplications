@@ -1,0 +1,14 @@
+客户端发送请求, 定义连接的超时时间, 通过服务端发送心跳来避免
+socket.setSoTimeout(5000);
+GET().timeout(Duration.ofSeconds(5))
+
+Client started:
+Enter string to be echoed:
+test message
+Received from server: heartbeat session!
+Received from server: heartbeat session!
+Received from server: heartbeat session!
+Received from server: heartbeat session!
+Received from server: heartbeat session!
+Received from server: heartbeat session!
+Received from server: Send back: test message
