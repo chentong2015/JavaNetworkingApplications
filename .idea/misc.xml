@@ -12,7 +12,13 @@
         <option value="$PROJECT_DIR$/networking-projects/spring-openai-chatbot/pom.xml" />
         <option value="$PROJECT_DIR$/http-client-library/pom.xml" />
         <option value="$PROJECT_DIR$/netty-middleware/pom.xml" />
+        <option value="$PROJECT_DIR$/network-netty/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/base-io-types/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
