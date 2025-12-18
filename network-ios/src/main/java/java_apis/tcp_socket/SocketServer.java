@@ -9,11 +9,11 @@ import java.net.Socket;
 
 public class SocketServer {
 
-    // Single BaseThread Server: ServerSocket只允许一个Client连接
+    // TODO. Single BaseThread Server
+    // ServerSocket只允许一个Client可靠连接
     // 1. 指定Server的端口号在1-65535之间, 不能被其他应用占有: 特殊app占有特殊的端口号
-    //    serverSocket.accept();
     // 2. Waiting for clients connect
-    // 3. Create an end-to-end connection 创建可靠的连接
+    // 3. Create an end-to-end connection
     public static void main(String[] args) throws IOException {
         try (ServerSocket serverSocket = new ServerSocket(5000)) {
             // Blocked: 用来和server联系的socket，server port一致，client port不一致
@@ -35,12 +35,12 @@ public class SocketServer {
         }
     }
 
-    /**
-     * Multi BaseThread Server: 服务器需要支持多个Clients的连接，高并发的处理请求
-     * 1. Server需要根据每一个Client的连接，创建一个相应的Socket来处理，
-     * 2. 每个Socket独立处理各自的client请求，完成数据的收发
-     * 3. 当有Client关闭连接之后，对应的Server socket应该停止运行
-     */
+    // TODO. Multi BaseThread Server
+    // 服务器需要支持多个Clients的连接，高并发的处理请求
+    // 1. Server需要根据每一个Client的连接，创建一个相应的Socket来处理，
+    // 2. 每个Socket独立处理各自的client请求，完成数据的收发
+    // 3. 当有Client关闭连接之后，对应的Server socket应该停止运行
+    //
     // 问题1：当多个Client都exit的时候，ServerSocket没有办法关闭，还在while循环
     // 问题2: receivedStream.readLine(); 由于这里Blocked，当第二个Client连接的时候，没有办法创建相应的socket
     // 问题3: serverSocket.accept();     由于这里Blocked, 当client再次连接的时候，只能收到一次的返回信息
@@ -67,13 +67,12 @@ public class SocketServer {
         }
     }
 
-    /**
-     * Multi BaseThread Server: 服务器需要为每个成功连接的Client创建新的线程来处理
-     * 1. 解决由于Server单线程造成的Socket的阻塞
-     * 2. 支持相应式的client连接，同时避免一个Client独占Server过长的时间，导致无法处理别的Client请求
-     * 3. 新的线程负责server's input/output Streams, listening for requests on the client, responding to events
-     * 4. Client断开连接时，server对应创建的socket.close()，导致对应的Thread线程结束全部运行
-     */
+    // TODO. Multi BaseThread Server
+    // 服务器需要为每个成功连接的Client创建新的线程来处理
+    // 1. 解决由于Server单线程造成的Socket的阻塞
+    // 2. 支持相应式的client连接，同时避免一个Client独占Server过长的时间，导致无法处理别的Client请求
+    // 3. 新的线程负责server's input/output Streams, listening for requests on the client, responding to events
+    // 4. Client断开连接时，server对应创建的socket.close()，导致对应的Thread线程结束全部运行
     private void testMultiThreadServer() throws IOException {
         try (ServerSocket serverSocket = new ServerSocket(5000)) {
             while (true) {

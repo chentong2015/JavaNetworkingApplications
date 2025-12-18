@@ -1,4 +1,4 @@
-package java_apis.java_url;
+package java_apis.java_url_connection;
 
 import java.io.*;
 import java.net.HttpURLConnection;

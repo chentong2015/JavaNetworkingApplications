@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>network-io-types</module>
+        <module>network-ios</module>
         <module>networking-httpclients</module>
         <module>networking-projects</module>
     </modules>

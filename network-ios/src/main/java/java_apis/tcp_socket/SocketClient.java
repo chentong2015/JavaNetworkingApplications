@@ -31,6 +31,7 @@ public class SocketClient {
                break;
             }
             sendStream.println(input);
+
             System.out.println("Received from server: " + receivedStream.readLine());
         }
     }

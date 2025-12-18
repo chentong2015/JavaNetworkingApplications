@@ -5,18 +5,28 @@
     <file url="file://$PROJECT_DIR$/base-io-types/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-core-networking/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/network-io-types/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/async_io/client/ClientConnectionHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/async_io/client/ClientReadHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/async_io/client/ClientWriteHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/async_io/server/BaseAioServer.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/async_io/server/ServerConnectionHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/async_io/server/ServerReadHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/async_io/server/ServerWriteHandler.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/blocking_io/DemoBlockingIO.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/non_blocking_io/BaseNioClient.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/non_blocking_io/BaseNioServer.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/network-io-types/src/main/java/io_types/non_blocking_io_selector/BaseNioServerSelector.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/network-io-types/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/async_io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/base_uri" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/blocking_io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/async_io/client/ClientConnectionHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/async_io/client/ClientReadHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/async_io/client/ClientWriteHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/async_io/server/BaseAioServer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/async_io/server/ServerConnectionHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/async_io/server/ServerReadHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/async_io/server/ServerWriteHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/blocking_io/DemoBlockingIO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/non_blocking_io/BaseNioClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/non_blocking_io/BaseNioServer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/io_types/non_blocking_io_selector/BaseNioServerSelector.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/java_apis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/non_blocking_io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/non_blocking_io_selector" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/java/test_heartbeat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-ios/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/network-netty/Netty通讯中间件.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/network-netty/design/Netty中间件.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/network-netty/src/main/java/netty/NettyServerHandler.java" charset="UTF-8" />
