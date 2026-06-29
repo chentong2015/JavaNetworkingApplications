@@ -13,12 +13,16 @@
         <option value="$PROJECT_DIR$/http-client-library/pom.xml" />
         <option value="$PROJECT_DIR$/netty-middleware/pom.xml" />
         <option value="$PROJECT_DIR$/network-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/network-libraries/okhttp-client-chatbot/pom.xml" />
+        <option value="$PROJECT_DIR$/network-libraries/okhttp-chatbot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/base-io-types/pom.xml" />
         <option value="$PROJECT_DIR$/network-io-types/pom.xml" />
+        <option value="$PROJECT_DIR$/networking-httpclients/pom.xml" />
+        <option value="$PROJECT_DIR$/networking-projects/pom.xml" />
       </set>
     </option>
   </component>

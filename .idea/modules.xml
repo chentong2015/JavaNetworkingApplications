@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaNetworkingApplications.iml" filepath="$PROJECT_DIR$/.idea/JavaNetworkingApplications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-java-apis/network-io-types.iml" filepath="$PROJECT_DIR$/base-java-apis/network-io-types.iml" />
     </modules>
   </component>
 </project>

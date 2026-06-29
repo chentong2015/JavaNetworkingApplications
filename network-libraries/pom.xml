@@ -9,12 +9,18 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>networking-projects</artifactId>
+    <artifactId>network-libraries</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>apache-httpclient</module>
+        <module>apache-httpclient5</module>
+        <module>feign-httpclient</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 </project>

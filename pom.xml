@@ -11,8 +11,7 @@
 
     <modules>
         <module>network-ios</module>
-        <module>networking-httpclients</module>
-        <module>networking-projects</module>
+        <module>network-libraries</module>
     </modules>
 
     <properties>

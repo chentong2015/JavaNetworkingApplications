@@ -6,12 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="networking-projects" />
+        <module name="okhttp-chatbot" />
         <module name="apache-httpclient" />
         <module name="feign-httpclient" />
         <module name="network-ios" />
-        <module name="okhttp-client-chatbot" />
-        <module name="spring-openai-chatbot" />
         <module name="apache-httpclient5" />
         <module name="network-netty" />
       </profile>
@@ -22,7 +20,10 @@
       <module name="base-network-io-types" target="17" />
       <module name="http-clients" target="17" />
       <module name="network-io-types" target="17" />
+      <module name="networking-httpclients" target="17" />
       <module name="networking-io-netty" target="15" />
+      <module name="networking-projects" target="17" />
+      <module name="spring-openai-chatbot" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
