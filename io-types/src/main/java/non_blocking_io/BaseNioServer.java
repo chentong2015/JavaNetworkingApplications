@@ -9,8 +9,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-//
-// TODO: NIO(Non block IO, New IO)不足之处 => 使用Selector多路复用器进行优化
+// TODO: NIO(Non block IO, New IO)缺点 => 使用Selector多路复用器进行优化
 // 1. 不停的循环，可能造成CPU过高
 //    如果没有和客户端收发信息，则可以让出CPU的执行时间
 // 2. 每次都需要遍历list中的SocketChannel，造成不必要性能浪费
@@ -21,7 +20,7 @@ public class BaseNioServer {
 
     public static void main(String[] args) throws IOException {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
-        serverSocketChannel.socket().bind(new InetSocketAddress(9000));
+        serverSocketChannel.bind(new InetSocketAddress(9000));
         // 设置server端为非阻塞
         serverSocketChannel.configureBlocking(false);
 

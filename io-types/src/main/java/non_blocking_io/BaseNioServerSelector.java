@@ -1,4 +1,4 @@
-package non_blocking_io_selector;
+package non_blocking_io;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -13,11 +13,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
 import java.util.Set;
 
-// 服务端代码的权责:
-// 1. 套接字连接管理
-// 2. 客户端处理
-// 3. 线程策略(使用规则)
-// 4. 服务器关闭策略
 public class BaseNioServerSelector {
 
     private static Selector selector;
@@ -36,14 +31,16 @@ public class BaseNioServerSelector {
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
         System.out.println("Server started. Success !");
         while (true) {
-            // 阻塞: 直到有任何监听的事件发生 ==> 没有任何事件则不会占用CPU
-            // select(long timeout); 可以设置阻塞时间，即使没有事件发生，也不需要一直等待
+            // 阻塞: 直到有任何监听的事件发生
+            // 没有任何事件则不会占用CPU
+            // 可以设置阻塞时间，即使没有事件发生，也不需要一直等待
             selector.select();
-            // 获取selector中注册的全部事件 ==> 只是关注有效地注册事件，避免多余的处理
-            // TODO: 只处理有事件发生的Channel
+
+            // TODO: 只处理有事件发生的Channel, 只是关注有效地注册事件
+            // - 获取selector中注册的全部事件
+            // - 遍历SelectionKey逐个对事件进行处理之后删除(避免重复处理)
             Set<SelectionKey> selectionKeys = selector.selectedKeys();
             Iterator<SelectionKey> iterator = selectionKeys.iterator();
-            // 遍历SelectionKey，逐个对事件进行处理，之后删除(避免重复处理)
             while (iterator.hasNext()) {
                 handleSelectionKeyEvents(iterator.next());
                 iterator.remove();
@@ -61,6 +58,7 @@ public class BaseNioServerSelector {
             socketChannel.register(selector, SelectionKey.OP_READ);
             System.out.println("Connection OK");
         }
+
         // 如果是SocketChannel上的Read事件(接受信息，读取到客户端的信息)
         if (key.isReadable()) {
             SocketChannel socketChannel = (SocketChannel) key.channel();

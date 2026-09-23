@@ -7,7 +7,7 @@ import java.nio.channels.SocketChannel;
 
 public class BaseNioClient {
 
-    public void testClientSocketChannel() throws IOException {
+    public static void main(String[] args) throws IOException {
         SocketChannel socketChannel = SocketChannel.open();
         socketChannel.connect(new InetSocketAddress("localhost", 9000));
 
